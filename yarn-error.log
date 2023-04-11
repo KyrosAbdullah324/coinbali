@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add react-native-chart-kit
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;D:\sdk_0\platform-tools;D:\sdk_0\platforms;D:\sdk_0\emulator;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\src\flutter\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\YourUsername\AppData\Local\Android\sdk\platform-tools;C:\src\flutter\bin;C:\Users\Administrator\.gradle\wrapper\dists\gradle-7.5-all\6qsw290k5lz422uaf8jf6m7co\gradle-7.5\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\React Native\coinbali\node_modules\webpack-dev-middleware\node_modules\schema-utils'
+
+npm manifest: 
+  {
+    "name": "coinbali",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@expo/webpack-config": "^18.0.1",
+      "@react-native-community/masked-view": "^0.1.11",
+      "@react-navigation/bottom-tabs": "^6.5.7",
+      "@react-navigation/native": "^6.1.6",
+      "@react-navigation/stack": "^6.3.16",
+      "expo": "~48.0.9",
+      "expo-font": "~11.1.1",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-native": "0.71.6",
+      "react-native-custom-switch": "^1.0.7",
+      "react-native-gesture-handler": "^2.9.0",
+      "react-native-modal": "^11.0.1",
+      "react-native-pager-view": "6.1.2",
+      "react-native-paper": "^5.5.2",
+      "react-native-popup-menu": "^0.16.1",
+      "react-native-reanimated": "~2.14.4",
+      "react-native-safe-area-context": "^4.5.0",
+      "react-native-screens": "^3.20.0",
+      "react-native-tab-view": "^3.5.1",
+      "react-native-web": "~0.18.10",
+      "react-redux": "^8.0.5",
+      "redux": "^4.2.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
